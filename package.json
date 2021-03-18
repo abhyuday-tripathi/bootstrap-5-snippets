@@ -1,0 +1,29 @@
+{
+  "name": "bootstrap-5-snippets",
+  "displayName": "Bootstrap 5 Snippets",
+  "description": "A Simple extension that provides the latest Bootstrap 5 code snippets.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "icon": "icon.jpeg",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
